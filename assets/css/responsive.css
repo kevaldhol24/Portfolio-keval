@@ -1,0 +1,156 @@
+/* ::::::::::::::::::::::::
+    responsive design 
+::::::::::::::::::::::: */
+
+@media (max-width:1300px) {}
+
+@media (max-width:1230px) {
+    /* ---about section--- */
+    #about .about_content {
+        font-size: 20px;
+    }
+    #eduskills .edu_skills .org_name {
+        font-size: 24px;
+    }
+    #eduskills .edu_skills p {
+        margin-bottom: 1rem;
+        font-size: 18px;
+    }
+    #services .service .service_name {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1070px) {
+    .skill_label {
+        margin-top: 24px;
+    }
+}
+
+@media (max-width:992px) {
+    /* ---navbar--- */
+    /* ---navbar-toggler-button--- */
+    .navbar-toggler {
+        height: 40px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
+        border: none;
+    }
+    .toggler_icon {
+        height: 3px;
+        border-radius: 5px;
+        background-color: white;
+        display: block;
+        transition: all 0.5s;
+    }
+    .top_bar {
+        transform: translateY(-8px);
+        width: 20px;
+        margin-left: -20px;
+        transition-delay: 0.125s;
+    }
+    .middle_bar {
+        width: 40px;
+    }
+    .bottom_bar {
+        transform: translateY(8px);
+        width: 30px;
+        margin-left: -10px;
+    }
+    .close_button .top_bar {
+        width: 40px;
+        transform: translateY(0) rotate(45deg);
+        margin-left: 0;
+    }
+    .close_button .middle_bar {
+        transform: translateX(60px);
+    }
+    .close_button .bottom_bar {
+        width: 40px;
+        transform: translateY(-6px) rotate(315deg);
+        margin-left: 0;
+    }
+    .header .navbar_scrolled .toggler_icon {
+        background-color: black;
+    }
+    /* ---//toggler icon--- */
+    .navbar_bg_color {
+        background-color: black;
+    }
+    .header .navbar_scrolled .navbar-collapse {
+        background-color: white;
+        border-radius: 0px 0px 8px 8px;
+        box-shadow: none;
+        backdrop-filter: none;
+        margin-top: 9px;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+    .header .navbar-collapse {
+        background-color: rgb(0, 0, 0);
+        margin-top: 12px;
+        transition: all 0.3s linear;
+    }
+    .nav-item {
+        margin: 10px 0;
+    }
+    /* ----hero section--- */
+    .hero_section .hero_buttons {
+        justify-content: center;
+    }
+    /* ---about section--- */
+    #about .about_content {
+        font-size: 18px;
+    }
+    .about_content .social h2 {
+        font-size: 20px;
+    }
+    .about_content .social .sc_icons .icon {
+        height: 40px;
+        width: 40px;
+        margin: 5px;
+    }
+    .about_content .social {
+        margin: 10px 0 0;
+    }
+    #services .service_desc {
+        font-size: 20px;
+    }
+    .service {
+        min-width: 250px;
+    }
+}
+
+@media (max-width:768px) {
+    .skill_label {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:576px) {
+    /* ---hero section--- */
+    .hero_section .hero_content h3 {
+        font-weight: 100;
+        font-size: 32px !important;
+    }
+    .hero_section .hero_content h1 {
+        font-size: 64px !important;
+        line-height: 90px;
+        font-weight: 600;
+        color: var(--primary);
+    }
+    .hero_section .hero_content h2 {
+        font-size: 28px !important;
+        margin-top: 15px;
+        font-weight: 600;
+    }
+}
