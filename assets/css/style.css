@@ -488,7 +488,7 @@ body {
 }
 
 #projects .project .shp_project {
-    background: url(../../assets/images/projects/shp.png);
+    background: url(../../assets/images/projects/calqulation-home.png);
 }
 
 #projects .project .ims_project {
@@ -516,7 +516,7 @@ body {
 }
 
 #projects .project .shp_project:hover {
-    background: linear-gradient(-90deg, rgba(120, 2, 6, 0.6) 0%, rgba(6, 17, 97, 0.6) 81.56%), url("../../assets/images/projects/shp.png");
+    background: linear-gradient(-90deg, rgba(120, 2, 6, 0.6) 0%, rgba(6, 17, 97, 0.6) 81.56%), url("../../assets/images/projects/calqulation-home.png");
 }
 
 #projects .project .fms_project:hover {
