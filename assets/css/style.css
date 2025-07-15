@@ -473,6 +473,9 @@ body {
     transform: perspective(500px) rotateY(180deg);
 }
 
+.helloThere {
+    display: none;
+}
 
 /* =======PROJECTS======= */
 
